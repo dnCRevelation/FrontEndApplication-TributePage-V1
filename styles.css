@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+#image {
+    width: auto;           
+    height: auto;             
+    margin: 0;         
+    border: 5px solid black;
+    border-radius: 7px;    
+    max-width: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+    display: block;
+    align-items: center;      
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+#img-div {
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+#img-caption {
+    font-size: small;
+    font-weight: 350;
+    margin: 4px 0;
+}
+
+h1, p, figure {
+    text-align: center;
+}
+
+#title {
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+p {
+    margin-top: 2px;
+    padding-top: 5px;
+    margin-bottom: 3em;
+    font-weight: 400;
+    font-size: 90%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: wrap;
+    font-family: Roboto, sans-serif;
+
+    
+}
+
+h3 {
+    margin: 45px auto;
+}
+
+div {
+    margin-top: 35px;
+    height: min-content;
+    align-items: center;
+}
+
+label {
+    font-weight: 500;
+    
+}
+
+ul li, ul label {
+    margin-bottom: 20px;
+}
